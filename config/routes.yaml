@@ -1,0 +1,6 @@
+#index:
+#    path: /
+#    controller: App\Controller\DefaultController::index
+invitations:
+    type:     annotation
+    resource: App\Controller\InvitationController
